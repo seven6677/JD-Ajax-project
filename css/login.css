@@ -1,0 +1,16 @@
+*{margin: 0;padding:0;font-size: 16px;}
+ul,li{list-style:none}
+a{color: black;text-decoration-line: none;font-weight: lighter;}
+b{font-size: 35px;font-weight: 800;}
+header{margin: auto; width: 80%;height: 100px;display: flex;justify-content: space-between;align-items: center;}
+section{width: 100%;height: 450px;background: url(../images/loginBg.png);background-repeat: no-repeat;background-color: red;}
+form{width: 300px;height: 350px;background-color: #fff;position: relative;top: 20px;left: 900px;display: flex;justify-content: space-evenly;align-items: center;}
+form ul li{line-height: 50px;}
+input{width: 270px;height: 30px;}
+#sbutton{background-color: red;color: white;text-align: center;}
+footer ul{width: 900px; margin: auto;margin-top: 30px;}
+footer ul li{display: inline;color: grey;}
+p{color: grey;margin: auto;width: 400px;}
+
+
+

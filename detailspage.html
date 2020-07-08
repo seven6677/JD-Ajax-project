@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>详情页</title>
+  <link rel="stylesheet" href="css/detailpage.css">
+  <script src="js/js.js"></script>
+</head>
+
+<body onload="loadcontent(),checkOn()">
+  <nav>
+    <a href="index.html" style=" margin-left: 80px;">京东首页</a>
+    <a href=""><i class="fa fa-map-marker" aria-hidden="true"></i>浙江</a>
+    <a href=""></a>
+    <a href="login.html" style="margin-left: 700px;" id="c">您好请登录</a>
+    <a href="register.html" style="color: red;">免费注册</a>
+    <a href="">我的订单</a>
+    <a onclick="openCar()">我的购物车</a>
+    <a href="">客户服务</a>
+  </nav>
+  <header>
+    <img src="images/logo.png" alt="">
+    <input type="text"><span><a>搜索</a></span>
+  </header>
+
+  <section class="phone-attributes">
+    <img alt="" id="bookimg">
+    <div class="choice">
+      <div class="choice-slogen">
+        <div>
+          <div class="red-area">校园配送</div>
+          <h3 id="bookname">苹果7/8手机壳iPhone7 Plus保护壳全包防摔米沙硬外壳</h3>
+        </div>
+        <div class="activity">【满69-20元】【关注产品★送钢化膜】【京配次日达】</div>
+      </div>
+      <div class="choice-price">
+        <div class="grey">京 东 价</div>
+        <div id="bookprice">¥28.00</div>
+        <div class="sall"><span class="grey">累计评价</span><span style="color: steelblue;padding-left: 10px;">7.5万+</span>
+        </div>
+        <div class="grey">优 惠 价</div>
+        <div>
+          <div class="discount">满148减10</div>
+          <div class="discount">满218减20</div>
+          <div class="discount">满288减30</div>
+        </div>
+        <div class="grey">促 销</div>
+        <div>
+          <div class="promotion">跨店满减</div>
+          <div class="promotion">多买优惠</div>
+        </div>
+      </div>
+      <div class="choice-color">
+        <div>选择颜色</div>
+        <div class="phone-color">
+          <a href="">4.7英寸-深邃蓝</a>
+        </div>
+        <div class="phone-color">
+          <a href="">4.7英寸-星空黑</a>
+        </div>
+        <div class="phone-color">
+          <a href="">.5英寸-香槟金</a>
+        </div>
+        <div class="phone-color">
+          <a href="">5.5英寸-玫瑰金</a>
+        </div>
+        <div class="phone-color">
+          <a href="">5.5-深邃蓝</a>
+        </div>
+        <div class="phone-color">
+          <a href="">5.5英寸-星空黑</a>
+        </div>
+        <div class="phone-color">
+          <a href="">4.7英寸-香槟金</a>
+        </div>
+        <div class="phone-color">
+          <a href="">4.7英寸-玫瑰金</a>
+        </div>
+        <div class="phone-color">
+          <a href="">4.7英寸-中国红</a>
+        </div>
+      </div>
+    </div>
+    <div class="phone-img">
+
+    </div>
+    <div class="by-stages">
+      <div class="stages-discount">
+        <div class="discount-name">优惠套装</div>
+        <div class="specific">
+          <div><a href="">优惠套餐一</a></div>
+          <div><a href="">优惠套餐二</a></div>
+          <div><a href="">优惠套餐三</a></div>
+          <div><a href="">优惠套餐四</a></div>
+          <div><a href="">优惠套餐五</a></div>
+        </div>
+      </div>
+      <div class="stages-discount">
+        <div class="discount-name">白条分期</div>
+        <div class="specific" style="border-bottom: 1px solid grey;">
+          <div><a href="">不分期</a></div>
+          <div><a href="">¥9.47 x 3期</a></div>
+          <div><a href="">¥4.81 x 6期</a></div>
+          <div><a href="">¥2.47 x 12期</a></div>
+          <div><a href="">¥1.31 x 24期</a></div>
+        </div>
+      </div>
+    </div>
+    <P>
+      <input type='button' value='-' onclick='jian()' id="jianhao" style="margin-left: 200px;"><span
+        id="cccc">1</span><input type='button' value='+' onclick='add()'>
+      <input type="button" value="加入购物车" onclick="addshopcar(this)"
+        style="width: 150px;height: 40px;background-color: red;color: white;margin-left: 550px;">
+    </P>
+  </section>
+  <footer>
+    <h2>
+      品类齐全，轻松购物
+    </h2>
+    <h2 class="fast">
+      多仓直发，极速配送
+    </h2>
+    <h2 class="good">
+      正品行货，精致服务
+    </h2>
+    <h2 class="s">
+      天天低价，畅选无忧
+    </h2>
+  </footer>
+</body>
+
+</html>

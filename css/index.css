@@ -1,0 +1,38 @@
+*{margin: 0;padding:0;}
+a{color: black;text-decoration-line: none;}
+nav{width: 100%;height: 25px; background-color: rgb(227, 228, 229);}
+nav a{color: gray;}
+nav a{margin-right: 20px;}
+header{width: 100%;height: 100px;}
+header img{margin-left: 80px;margin-top: 20px;}
+header input{width: 300px;height: 30px;margin-left: 600px;border: 1px solid rgb(113, 90, 82);}
+span{display: inline-block;width: 50px;height:29px;background-color: rgb(113, 90, 82);padding-top: 3px;padding-left: 10px;}
+span a{color: white;}
+#pic{width: 100%;height: 360px;margin-left: 300px;}
+ ul{list-style: none; position: relative; top: -40px;}
+ #pic ul li{width: 20px; height: 20px; border-radius: 10px; background-color: #ccc; float: left; margin-left: 20px;}
+ /* #picBig li img{width: 1330px;height: 360px;} */
+ /* #img{width: 1330px;} */
+section{width: 90%;margin: auto;display: grid;grid-template-columns: 220px auto;grid-template-rows:auto 50px;}
+/* 侧边广告栏 */
+#productsidearea{display: grid;grid-template-rows: repeat(8,340px) auto;grid-template-columns: 100%;border-right: 1px solid #ccc;}
+.sideproduct{display: grid;grid-template-rows: 66% 30px auto;grid-template-columns: 100%;}
+/* 商品内容 */
+/* #productmainarea{display: flex;flex-wrap: wrap;justify-content: space-evenly;width: 1076px;border: 1px solid #ccc;} */
+article{display: grid;grid-template-rows: 3050px 50px;grid-template-columns: 1076px;}
+#productmainarea{display: grid;grid-template-columns: repeat(4,1fr);grid-template-rows: repeat(8,1fr);width: 1076px;height: 3050px;border: 1px solid #ccc;border-bottom: none;}
+.mainproduct{width: 260px; display: grid;grid-template-rows: 230px 90px 30px 30px;grid-template-columns: 100%;justify-items: center;}
+.mainproduct input{width: 100px;height: 25px;color: red;font-size: 16px;}
+.price{color: red;font-size: 18px;}
+aside{border: 1px solid #ccc;}
+footer{width: 100%;height: 100px;background-color: rgb(204, 204, 204);padding-left: 200px;}
+ /* 精灵图 */
+ h2 {margin: auto; height: 43px;background: url(../images/ico_service.png) no-repeat;text-indent: 48px;display: inline-block;margin-top: 40px;margin-right: 40px;}
+.fast {background-position: 0 -43px;}
+.good {background-position: 0 -86px;}
+.s {background-position: 0 -129px;}
+#page{border: 1px solid #ccc;border-top: none;}
+
+
+
+

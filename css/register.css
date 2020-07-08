@@ -1,0 +1,24 @@
+*{margin: 0;padding:0;font-size: 16px;}
+ul,li{list-style:none}
+a{color: red;text-decoration-line: none;}
+header{margin: auto; width: 80%;height: 100px;display: flex;justify-content: space-between;align-items: center;}
+b{font-size: 25px;font-weight: 800;}
+section{text-align: center;margin-top: 50px;}
+input{width: 300px;height: 45px;margin-bottom: 20px;border: 1px solid grey;}
+#submirButton{background-color: red;color: white;font-size: 20px;}
+footer ul{width: 900px; margin: auto;margin-top: 30px;}
+footer ul li{display: inline;color: grey;}
+div{color: grey;margin: auto;width: 400px;}
+
+
+
+
+
+
+
+
+
+
+
+
+

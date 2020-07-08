@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>注册</title>
+  <link rel="stylesheet" href="css/register.css">
+  <script src="js/js.js"></script>
+</head>
+
+<body>
+  <header>
+    <p><img src="images/logo.png" alt="">
+      <b>欢迎注册</b>
+    </p>
+    <p>已有账号 <a href="login.html">请登录</a></p>
+  </header>
+  <hr>
+  <section>
+    <ul>
+      <li><input type="username" placeholder="手机号或者邮箱" onchange="checkNumber(this)" id="account"></li>
+      <li><input type="password" placeholder="8-10位数字和英文字母组成的密码" onchange="checkPassword(this)" id="pwd"></li>
+      <li><input type="password" placeholder="重复密码" onblur="checkSame(this,'pwd')"></li>
+      <li><input type="button" id="submirButton" value="提交注册" onclick="submitRegister()"></li>
+    </ul>
+  </section>
+  <footer>
+    <ul>
+      <li>关于我们 | </li>
+      <li>联系我们 | </li>
+      <li>人才招聘 | </li>
+      <li>商家入住 | </li>
+      <li>广告服务 | </li>
+      <li>手机京东 | </li>
+      <li>友情链接 | </li>
+      <li>销售联盟 | </li>
+      <li>京东社区 | </li>
+      <li>京东公益 | </li>
+      <li>English Site</li>
+    </ul>
+    <div>Copyright © 2004-2020JD.com版权所有</div>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>购物车</title>
+  <link rel="stylesheet" href="css/shopcar.css">
+
+</head>
+
+<body onload="welcome(),showShopBook()">
+  <nav>
+    <a href="index.html" style=" margin-left: 80px;">京东首页</a>
+    <a href=""><i class="fa fa-map-marker" aria-hidden="true"></i>浙江</a>
+    <a href=""></a>
+    <a href="login.html" style="margin-left: 580px;" id="c">您好请登录</a>
+    <a href="register.html" style="color: red;">免费注册</a>
+    <a href="">我的订单</a>
+    <a href="">我的购物车</a>
+    <a href="">客户服务</a>
+  </nav>
+  <header>
+    <img src="images/logo.png" alt="">
+    <input type="text"><span><a>搜索</a></span>
+  </header>
+  <h3>全部商品<span id="count">0</span></h3>
+  <table id="tab">
+    <tr style="background-color: rgb(243, 243, 244);height: 50px;font-weight: normal;">
+      <th style="width:40px">全选</th>
+      <th style="width: 150px;"><input type="checkbox" id="checkAll" onclick="setAll(this)"></th>
+      <th style="width: 400px;">商品</th>
+      <th style="width: 80px;text-align: center;">单价</th>
+      <th style="width: 150px;text-align: center;">数量</th>
+      <th style="text-align: center;">小计</th>
+      <th style="text-align: center;">操作</th>
+    </tr>
+  </table>
+  <div>
+    <input type="checkbox" onclick="setAll(this),checkNumber()" id="checkAlls"> 全选
+    <a href="" onclick="deleteCheck()">删除选中商品</a>
+    <a href="">移到关注</a>
+    <a href="">清理购物车</a>
+    <p style="margin-left: 323px; width: 125px;">已选择<span id="number">0</span>件商品</p>
+    <p style="width: 120px;height: 50px;">总价：<span id="sum">¥0.00</span></p>
+    <input type="button" id="checkSum" value="去结算" onclick="payMoney()">
+  </div>
+</body>
+<script src="js/js.js"></script>
+
+</html>
